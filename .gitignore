@@ -1,0 +1,15 @@
+# Live project data never goes in this repo: it holds real budgets, names and
+# board decisions, and it changes on its own schedule. It lives in the Cowork
+# folder alongside the generated decks.
+projects/
+outputs/
+
+# Generated decks and working files, wherever they end up
+*.pptx.tmp
+~$*
+.DS_Store
+__pycache__/
+*.pyc
+
+# The official templates ARE tracked - they are the master copies:
+!plugins/rmg-pmo/templates/*.pptx

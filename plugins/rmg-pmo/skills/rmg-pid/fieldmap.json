@@ -1,0 +1,434 @@
+{
+  "gate": "PID (phase 1 - INITIATE)",
+  "template": "../../templates/pid.pptx",
+  "approver": "PMO Board / CEO",
+  "default_italic": false,
+  "cells": {
+    "pmo_board_date": {
+      "slide": 0,
+      "shape": 0,
+      "mode": "sub",
+      "find": "dd/mm/yy",
+      "label": "PMO Board date for this PID",
+      "owner": "Head of PMO"
+    },
+    "title_block": {
+      "slide": 0,
+      "shape": 1,
+      "mode": "text",
+      "label": "Project name + PRJ number (2 lines)",
+      "owner": "Project Manager"
+    },
+    "description": {
+      "slide": 2,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "Description of the project (purpose / context)",
+      "owner": "Project Owner"
+    },
+    "strategic_fit": {
+      "slide": 2,
+      "shape": 2,
+      "row": 1,
+      "col": 0,
+      "label": "Strategic fit with the Roularta strategy",
+      "owner": "Project Owner"
+    },
+    "general_objective": {
+      "slide": 3,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "General objective, SMART formulated",
+      "owner": "Project Owner"
+    },
+    "integration_organization": {
+      "slide": 3,
+      "shape": 2,
+      "row": 2,
+      "col": 1,
+      "label": "How the project result will be integrated in the organization",
+      "owner": "Project Owner"
+    },
+    "followup_kpis": {
+      "slide": 3,
+      "shape": 2,
+      "row": 3,
+      "col": 1,
+      "label": "Follow-up KPIs after go live",
+      "owner": "Project Owner"
+    },
+    "scope_geography": {
+      "slide": 3,
+      "shape": 3,
+      "row": 0,
+      "col": 1,
+      "label": "Geographical scope (BE / NL / BENE)",
+      "owner": "Project Owner"
+    },
+    "in_scope": {
+      "slide": 3,
+      "shape": 3,
+      "row": 1,
+      "col": 0,
+      "label": "In scope",
+      "owner": "Project Owner"
+    },
+    "in_scope_geo": {
+      "slide": 3,
+      "shape": 3,
+      "row": 1,
+      "col": 1,
+      "label": "Geography for the in-scope items",
+      "owner": "Project Owner"
+    },
+    "out_of_scope": {
+      "slide": 3,
+      "shape": 3,
+      "row": 2,
+      "col": 0,
+      "label": "Out of scope (explicit exclusions)",
+      "owner": "Project Owner"
+    },
+    "out_of_scope_geo": {
+      "slide": 3,
+      "shape": 3,
+      "row": 2,
+      "col": 1,
+      "label": "Geography for the out-of-scope items",
+      "owner": "Project Owner"
+    },
+    "benefits_quantitative": {
+      "slide": 4,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "Quantitative / financial benefits, as KPIs (business case)",
+      "owner": "Business Controlling"
+    },
+    "recurring_cost": {
+      "slide": 4,
+      "shape": 2,
+      "row": 1,
+      "col": 0,
+      "label": "Expected recurring cost after go live",
+      "owner": "Project Manager"
+    },
+    "benefits_qualitative": {
+      "slide": 4,
+      "shape": 3,
+      "row": 1,
+      "col": 0,
+      "label": "Qualitative benefits",
+      "owner": "Project Owner"
+    },
+    "resources_build_estimate": {
+      "slide": 5,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "First estimate (range) of the build / realisation effort",
+      "owner": "IT"
+    },
+    "res_itdev_md": {
+      "slide": 5,
+      "shape": 2,
+      "row": 2,
+      "col": 3,
+      "label": "Analysis MD - IT DEV",
+      "owner": "IT"
+    },
+    "res_itdev_info": {
+      "slide": 5,
+      "shape": 2,
+      "row": 2,
+      "col": 5,
+      "label": "Analysis IT DEV - info",
+      "owner": "IT"
+    },
+    "res_cycles_md": {
+      "slide": 5,
+      "shape": 2,
+      "row": 3,
+      "col": 3,
+      "label": "Analysis MD - Cycles",
+      "owner": "Cycles"
+    },
+    "res_cycles_info": {
+      "slide": 5,
+      "shape": 2,
+      "row": 3,
+      "col": 5,
+      "label": "Analysis Cycles - info",
+      "owner": "Cycles"
+    },
+    "res_pmo_md": {
+      "slide": 5,
+      "shape": 2,
+      "row": 4,
+      "col": 3,
+      "label": "Analysis MD - PMO",
+      "owner": "PMO"
+    },
+    "res_pmo_info": {
+      "slide": 5,
+      "shape": 2,
+      "row": 4,
+      "col": 5,
+      "label": "Analysis PMO - info",
+      "owner": "PMO"
+    },
+    "res_other_rmg_md": {
+      "slide": 5,
+      "shape": 2,
+      "row": 5,
+      "col": 3,
+      "label": "Analysis MD - other RMG / IT EA / IT Infra (non-billable)",
+      "owner": "Project Manager"
+    },
+    "res_other_rmg_info": {
+      "slide": 5,
+      "shape": 2,
+      "row": 5,
+      "col": 5,
+      "label": "Analysis other RMG - info",
+      "owner": "Project Manager"
+    },
+    "res_external_md": {
+      "slide": 5,
+      "shape": 2,
+      "row": 8,
+      "col": 3,
+      "label": "Analysis MD - external resources",
+      "owner": "Project Manager"
+    },
+    "res_external_keur": {
+      "slide": 5,
+      "shape": 2,
+      "row": 8,
+      "col": 4,
+      "label": "Analysis kEUR - external resources",
+      "owner": "Project Manager"
+    },
+    "res_external_info": {
+      "slide": 5,
+      "shape": 2,
+      "row": 8,
+      "col": 5,
+      "label": "Analysis external resources - info (supplier, quote ref)",
+      "owner": "Project Manager"
+    },
+    "res_itdev_keur": {
+      "slide": 5,
+      "shape": 2,
+      "row": 2,
+      "col": 4,
+      "label": "Analysis kEUR - IT DEV"
+    },
+    "res_cycles_keur": {
+      "slide": 5,
+      "shape": 2,
+      "row": 3,
+      "col": 4,
+      "label": "Analysis kEUR - Cycles"
+    },
+    "res_pmo_keur": {
+      "slide": 5,
+      "shape": 2,
+      "row": 4,
+      "col": 4,
+      "label": "Analysis kEUR - PMO"
+    },
+    "res_total_internal_md": {
+      "slide": 5,
+      "shape": 2,
+      "row": 6,
+      "col": 3,
+      "label": "Total internal RMG MD"
+    },
+    "res_total_internal_keur": {
+      "slide": 5,
+      "shape": 2,
+      "row": 6,
+      "col": 4,
+      "label": "Total internal RMG kEUR"
+    },
+    "res_total_analysis_md": {
+      "slide": 5,
+      "shape": 2,
+      "row": 10,
+      "col": 3,
+      "label": "Total ANALYSE MD"
+    },
+    "res_total_analysis_keur": {
+      "slide": 5,
+      "shape": 2,
+      "row": 10,
+      "col": 4,
+      "label": "Total ANALYSE kEUR"
+    },
+    "org_project_sponsor": {
+      "slide": 7,
+      "shape": 1,
+      "row": 1,
+      "col": 1,
+      "label": "Project Sponsor",
+      "owner": "Project Owner"
+    },
+    "org_product_manager": {
+      "slide": 7,
+      "shape": 1,
+      "row": 2,
+      "col": 1,
+      "label": "Product Manager",
+      "owner": "Project Owner"
+    },
+    "org_product_owner": {
+      "slide": 7,
+      "shape": 1,
+      "row": 3,
+      "col": 1,
+      "label": "Product Owner",
+      "owner": "Project Owner"
+    },
+    "org_project_manager": {
+      "slide": 7,
+      "shape": 1,
+      "row": 4,
+      "col": 1,
+      "label": "Project Manager",
+      "owner": "Head of PMO"
+    },
+    "org_steerco": {
+      "slide": 7,
+      "shape": 1,
+      "row": 6,
+      "col": 1,
+      "label": "Steerco members / roles",
+      "owner": "Project Sponsor"
+    },
+    "org_project_team": {
+      "slide": 7,
+      "shape": 1,
+      "row": 8,
+      "col": 1,
+      "label": "Project team members / roles (each one committed by themselves and their manager)",
+      "owner": "Project Manager"
+    },
+    "org_stakeholder_group": {
+      "slide": 7,
+      "shape": 1,
+      "row": 10,
+      "col": 1,
+      "label": "Stakeholder group",
+      "owner": "Project Manager"
+    },
+    "dpia_conclusion": {
+      "slide": 8,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "DPIA conclusion - required yes/no, and why (contact Peter Thiers)",
+      "owner": "Project Manager"
+    },
+    "ea_impact": {
+      "slide": 8,
+      "shape": 2,
+      "row": 1,
+      "col": 0,
+      "label": "Impact on architecture - conclusions of the pre-architectural checklist",
+      "owner": "Enterprise Architecture"
+    }
+  },
+  "clear": [
+    {
+      "slide": 2,
+      "shape": 1,
+      "row": 2,
+      "col": 0
+    }
+  ],
+  "derived": {
+    "res_itdev_keur": {
+      "keur_from_md": "res_itdev_md"
+    },
+    "res_cycles_keur": {
+      "keur_from_md": "res_cycles_md"
+    },
+    "res_pmo_keur": {
+      "keur_from_md": "res_pmo_md"
+    },
+    "res_total_internal_md": {
+      "sum": [
+        "res_itdev_md",
+        "res_cycles_md",
+        "res_pmo_md",
+        "res_other_rmg_md"
+      ]
+    },
+    "res_total_internal_keur": {
+      "sum": [
+        "res_itdev_keur",
+        "res_cycles_keur",
+        "res_pmo_keur"
+      ]
+    },
+    "res_total_analysis_md": {
+      "sum": [
+        "res_total_internal_md",
+        "res_external_md"
+      ]
+    },
+    "res_total_analysis_keur": {
+      "sum": [
+        "res_total_internal_keur",
+        "res_external_keur"
+      ]
+    }
+  },
+  "tables": {
+    "milestones_analysis": {
+      "slide": 6,
+      "shape": 1,
+      "first_row": 1,
+      "cols": [
+        "nr",
+        "milestone",
+        "start",
+        "end"
+      ],
+      "grow": true,
+      "label": "Key milestones during the ANALYSIS phase",
+      "owner": "Project Manager"
+    },
+    "milestones_build": {
+      "slide": 6,
+      "shape": 2,
+      "first_row": 1,
+      "cols": [
+        "nr",
+        "milestone",
+        "start",
+        "end"
+      ],
+      "grow": true,
+      "label": "Key milestones during the BUILD phase (high level)",
+      "owner": "Project Manager"
+    },
+    "risks": {
+      "slide": 9,
+      "shape": 1,
+      "first_row": 1,
+      "cols": [
+        "risk",
+        "probability",
+        "impact",
+        "mitigation"
+      ],
+      "grow": true,
+      "label": "Main risks with probability, impact and mitigation",
+      "owner": "Project Manager"
+    }
+  }
+}

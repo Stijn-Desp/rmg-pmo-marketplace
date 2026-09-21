@@ -1,0 +1,20 @@
+{
+  "skill": "rmg-project-pitch",
+  "cases": [
+    {
+      "id": "pitch-complete",
+      "why": "happy path: everything present, gap report must say so explicitly",
+      "prompt": "I want to pitch a project to get subscriber self-service on the roadmap. Subscribers can only change their address, payment method or pause delivery by phoning customer service, which costs us about 45k calls a year. Idea: a self-service portal for BE and NL print subscribers. Strategic fit: the direct-relationship pillar - lower cost per service interaction and better retention. Rough size: 200-300 MD, touches the subscription platform and the identity provider, one external UX partner. Sponsor would be Katrien De Vos, project manager me. Assumptions to test: that the subscription API can expose payment method changes, and that at least 30% of subscribers will use the portal rather than call. Build me the pitch."
+    },
+    {
+      "id": "pitch-incomplete",
+      "why": "deliberately incomplete: no strategic fit, no sponsor, no assumptions, vague size. Should produce four blocking gaps and a deck full of markers, not a plausible-looking pitch",
+      "prompt": "Can you make me a project pitch for a new app that lets our journalists file stories from their phone? Everyone keeps asking for it. Should be quick, maybe a few months."
+    },
+    {
+      "id": "pitch-partial-only-deck",
+      "why": "user asks only for the deck, skill must still run the checklist and gap report",
+      "prompt": "Just fill in the pitch template for PRJ-TBD.PODCASTS - we want to launch a podcast studio for the magazine brands. Sponsor is Tom Maes. I'll add the rest later."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "gate": "Plan to Execute (phase 2 - ANALYSE)",
+  "template": "../../templates/plan-to-execute.pptx",
+  "approver": "Steerco / PMO Board / CEO if deviation > 10% vs the initial request in the PID",
+  "default_italic": false,
+  "cells": {
+    "pmo_board_date": {
+      "slide": 0,
+      "shape": 0,
+      "mode": "sub",
+      "find": "dd/mm/yy",
+      "label": "PMO Board / Steerco date for this PTE",
+      "owner": "Head of PMO"
+    },
+    "title_block": {
+      "slide": 0,
+      "shape": 1,
+      "mode": "text",
+      "label": "Project name + PRJ number (2 lines)",
+      "owner": "Project Manager"
+    },
+    "description": {
+      "slide": 2,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "Description of the project (purpose / context)",
+      "owner": "Project Owner"
+    },
+    "strategic_fit": {
+      "slide": 2,
+      "shape": 2,
+      "row": 1,
+      "col": 0,
+      "label": "Strategic fit with the Roularta strategy",
+      "owner": "Project Owner"
+    },
+    "general_objective": {
+      "slide": 3,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "General objective, SMART formulated",
+      "owner": "Project Owner"
+    },
+    "in_scope": {
+      "slide": 3,
+      "shape": 2,
+      "row": 1,
+      "col": 0,
+      "label": "Final in scope",
+      "owner": "Project Owner"
+    },
+    "out_of_scope": {
+      "slide": 3,
+      "shape": 2,
+      "row": 2,
+      "col": 0,
+      "label": "Final out of scope (explicit exclusions)",
+      "owner": "Project Owner"
+    },
+    "analysis_conclusion": {
+      "slide": 4,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "Overall conclusion of the analysis (analyses done, new certainties, architectural impact, remaining uncertainties)",
+      "owner": "Project Manager"
+    },
+    "benefits_quantitative": {
+      "slide": 5,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "Quantitative / financial benefits as KPIs - validated by Controlling",
+      "owner": "Business Controlling"
+    },
+    "recurring_cost": {
+      "slide": 5,
+      "shape": 2,
+      "row": 1,
+      "col": 0,
+      "label": "Expected recurring cost after go live",
+      "owner": "Project Manager"
+    },
+    "benefits_qualitative": {
+      "slide": 5,
+      "shape": 3,
+      "row": 1,
+      "col": 0,
+      "label": "Qualitative benefits",
+      "owner": "Project Owner"
+    },
+    "res_it_md": {
+      "slide": 6,
+      "shape": 1,
+      "row": 2,
+      "col": 3,
+      "label": "Build MD - IT",
+      "owner": "IT"
+    },
+    "res_it_info": {
+      "slide": 6,
+      "shape": 1,
+      "row": 2,
+      "col": 5,
+      "label": "Build IT - info",
+      "owner": "IT"
+    },
+    "res_cycles_md": {
+      "slide": 6,
+      "shape": 1,
+      "row": 3,
+      "col": 3,
+      "label": "Build MD - Cycles",
+      "owner": "Cycles"
+    },
+    "res_cycles_info": {
+      "slide": 6,
+      "shape": 1,
+      "row": 3,
+      "col": 5,
+      "label": "Build Cycles - info",
+      "owner": "Cycles"
+    },
+    "res_pmo_md": {
+      "slide": 6,
+      "shape": 1,
+      "row": 4,
+      "col": 3,
+      "label": "Build MD - PMO",
+      "owner": "PMO"
+    },
+    "res_pmo_info": {
+      "slide": 6,
+      "shape": 1,
+      "row": 4,
+      "col": 5,
+      "label": "Build PMO - info",
+      "owner": "PMO"
+    },
+    "res_other_rmg_md": {
+      "slide": 6,
+      "shape": 1,
+      "row": 5,
+      "col": 3,
+      "label": "Build MD - other RMG / IT EA / IT Infra (non-billable)",
+      "owner": "Project Manager"
+    },
+    "res_other_rmg_info": {
+      "slide": 6,
+      "shape": 1,
+      "row": 5,
+      "col": 5,
+      "label": "Build other RMG - info",
+      "owner": "Project Manager"
+    },
+    "res_external_md": {
+      "slide": 6,
+      "shape": 1,
+      "row": 8,
+      "col": 3,
+      "label": "Build MD - external resources",
+      "owner": "Project Manager"
+    },
+    "res_external_keur": {
+      "slide": 6,
+      "shape": 1,
+      "row": 8,
+      "col": 4,
+      "label": "Build kEUR - external resources",
+      "owner": "Project Manager"
+    },
+    "res_external_info": {
+      "slide": 6,
+      "shape": 1,
+      "row": 8,
+      "col": 5,
+      "label": "Build external resources - info (supplier, quote ref)",
+      "owner": "Project Manager"
+    },
+    "res_it_keur": {
+      "slide": 6,
+      "shape": 1,
+      "row": 2,
+      "col": 4,
+      "label": "Build kEUR - IT"
+    },
+    "res_cycles_keur": {
+      "slide": 6,
+      "shape": 1,
+      "row": 3,
+      "col": 4,
+      "label": "Build kEUR - Cycles"
+    },
+    "res_pmo_keur": {
+      "slide": 6,
+      "shape": 1,
+      "row": 4,
+      "col": 4,
+      "label": "Build kEUR - PMO"
+    },
+    "res_total_internal_md": {
+      "slide": 6,
+      "shape": 1,
+      "row": 6,
+      "col": 3,
+      "label": "Total internal RMG MD"
+    },
+    "res_total_internal_keur": {
+      "slide": 6,
+      "shape": 1,
+      "row": 6,
+      "col": 4,
+      "label": "Total internal RMG kEUR"
+    },
+    "res_total_build_md": {
+      "slide": 6,
+      "shape": 1,
+      "row": 10,
+      "col": 3,
+      "label": "Total BUILD MD"
+    },
+    "res_total_build_keur": {
+      "slide": 6,
+      "shape": 1,
+      "row": 10,
+      "col": 4,
+      "label": "Total BUILD kEUR"
+    },
+    "org_project_sponsor": {
+      "slide": 8,
+      "shape": 1,
+      "row": 1,
+      "col": 1,
+      "label": "Project Sponsor",
+      "owner": "Project Owner"
+    },
+    "org_product_manager": {
+      "slide": 8,
+      "shape": 1,
+      "row": 2,
+      "col": 1,
+      "label": "Product Manager",
+      "owner": "Project Owner"
+    },
+    "org_product_owner": {
+      "slide": 8,
+      "shape": 1,
+      "row": 3,
+      "col": 1,
+      "label": "Product Owner",
+      "owner": "Project Owner"
+    },
+    "org_project_manager": {
+      "slide": 8,
+      "shape": 1,
+      "row": 4,
+      "col": 1,
+      "label": "Project Manager",
+      "owner": "Head of PMO"
+    },
+    "org_steerco": {
+      "slide": 8,
+      "shape": 1,
+      "row": 6,
+      "col": 1,
+      "label": "Steerco members",
+      "owner": "Project Sponsor"
+    },
+    "org_project_team": {
+      "slide": 8,
+      "shape": 1,
+      "row": 8,
+      "col": 1,
+      "label": "Build project team (each one committed by themselves and their manager)",
+      "owner": "Project Manager"
+    },
+    "org_stakeholder_group": {
+      "slide": 8,
+      "shape": 1,
+      "row": 10,
+      "col": 1,
+      "label": "Stakeholder group",
+      "owner": "Project Manager"
+    }
+  },
+  "clear": [
+    {
+      "slide": 2,
+      "shape": 1,
+      "row": 2,
+      "col": 0
+    }
+  ],
+  "derived": {
+    "res_it_keur": {
+      "keur_from_md": "res_it_md"
+    },
+    "res_cycles_keur": {
+      "keur_from_md": "res_cycles_md"
+    },
+    "res_pmo_keur": {
+      "keur_from_md": "res_pmo_md"
+    },
+    "res_total_internal_md": {
+      "sum": [
+        "res_it_md",
+        "res_cycles_md",
+        "res_pmo_md",
+        "res_other_rmg_md"
+      ]
+    },
+    "res_total_internal_keur": {
+      "sum": [
+        "res_it_keur",
+        "res_cycles_keur",
+        "res_pmo_keur"
+      ]
+    },
+    "res_total_build_md": {
+      "sum": [
+        "res_total_internal_md",
+        "res_external_md"
+      ]
+    },
+    "res_total_build_keur": {
+      "sum": [
+        "res_total_internal_keur",
+        "res_external_keur"
+      ]
+    }
+  },
+  "tables": {
+    "milestones_build": {
+      "slide": 7,
+      "shape": 1,
+      "first_row": 1,
+      "cols": [
+        "nr",
+        "milestone",
+        "start",
+        "end"
+      ],
+      "grow": true,
+      "label": "Key milestones for the BUILD phase",
+      "owner": "Project Manager"
+    },
+    "risks": {
+      "slide": 9,
+      "shape": 1,
+      "first_row": 1,
+      "cols": [
+        "risk",
+        "probability",
+        "impact",
+        "mitigation"
+      ],
+      "grow": true,
+      "label": "Main risks with probability, impact and mitigation",
+      "owner": "Project Manager"
+    }
+  }
+}

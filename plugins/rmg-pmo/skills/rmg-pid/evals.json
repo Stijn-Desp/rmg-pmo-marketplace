@@ -1,0 +1,20 @@
+{
+  "skill": "rmg-pid",
+  "cases": [
+    {
+      "id": "pid-from-approved-pitch",
+      "why": "happy path with a phase 0 section in the context file: assumption verdicts and scope-growth check must run",
+      "prompt": "The pitch for PRJ00214.SELFSERVICE was approved on 15/08/2026. Time to prepare the PID for the PMO Board of 24/09/2026. Analysis effort: IT DEV 45 MD, Cycles 12, PMO 8, other RMG 6 (customer service SMEs and IT EA review), external UX partner 20 MD / 26 kEUR on quote Q-2026-1187. Build estimate 180-240 MD internal plus 60-90 kEUR external. Scope BENE: address change, payment method change, delivery pause for print subscriptions; out of scope new sales, cancellations, digital-only, invoicing. Business case: 40% fewer inbound calls on those three topics, about 18k calls a year at 4.10 EUR handling = 74 kEUR/year. Recurring: 22 kEUR/year hosting plus 10 MD/year maintenance. Sponsor Katrien De Vos, product owner Tom Maes, PM me. EA pre-check done 12/09/26, reuses the identity provider and the subscription API, no new datastore. Business case not validated by Controlling yet."
+    },
+    {
+      "id": "pid-incomplete-dpia-trap",
+      "why": "the project obviously processes personal data and behavioural data but the user says no DPIA is needed; must be flagged as blocking. Also missing business case, EA pre-check and resource commitments",
+      "prompt": "Prepare the PID for PRJ00220.READERPROFILE. We're going to build reader profiles by merging the subscription database with website behaviour tracking and third-party data to personalise offers. No DPIA needed, it's just marketing data we already have. Objective is more revenue. IT thinks 60 MD analysis. Sponsor is the CMO. We want this on the next PMO Board."
+    },
+    {
+      "id": "pid-scope-growth",
+      "why": "PID scope is wider than the approved pitch; silent scope growth must be flagged even though every field is filled",
+      "prompt": "PID for PRJ00214.SELFSERVICE. Same as the pitch but we've decided to include subscription cancellations and digital-only subscriptions too, and to do France in a second wave. Everything else unchanged."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "skill": "rmg-project-closing",
+  "cases": [
+    {
+      "id": "closing-full-history",
+      "why": "happy path with PID and PTE in the context file: deliverables derived from what was committed, committed-vs-spend computed, overspend explanation required",
+      "prompt": "PRJ00214.SELFSERVICE went live in BE on 04/07/2027 and NL on 15/09/2027. Prepare the closing document for the Steerco of 30/09/2027. Actual internal effort 291 MD, external 104 kEUR, other expenses 6 kEUR. Inbound calls on the three topics are down 31% after two months, portal adoption 22%. Validated by Katrien De Vos for business, Wim Vermeulen for IT, EA signed off. Service desk incident flow and contacts are agreed, SLA is drafted but not signed yet."
+    },
+    {
+      "id": "closing-missing-handover",
+      "why": "deliberately incomplete: benefits not measured, no validators named, no service desk arrangements, no follow-up KPI owner. Four or five blocking gaps expected",
+      "prompt": "PRJ00231.ARCHIVE is live, can you write the closing doc? It works, everyone's happy. We spent roughly what we said. Let's close it."
+    },
+    {
+      "id": "closing-dropped-deliverable",
+      "why": "a deliverable committed in the PTE is absent from the user's account of what was delivered; must be surfaced rather than omitted from the table",
+      "prompt": "Closing doc for PRJ00214.SELFSERVICE please. We delivered address change and delivery pause. Internal 260 MD, external 88 kEUR. Business signed off."
+    }
+  ]
+}

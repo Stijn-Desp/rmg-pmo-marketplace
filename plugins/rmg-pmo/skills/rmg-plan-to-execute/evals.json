@@ -1,0 +1,20 @@
+{
+  "skill": "rmg-plan-to-execute",
+  "cases": [
+    {
+      "id": "pte-deviation-over-10",
+      "why": "core case: build figures exceed the PID commitment by more than 10%, verdict must be CEO / PMO Board approval required, with the arithmetic shown",
+      "prompt": "Analysis is finished for PRJ00214.SELFSERVICE, prepare the Plan to Execute for the Steerco of 21/01/2027. Build: IT 210 MD, Cycles 30, PMO 18, other RMG 10, external 40 MD / 95 kEUR. Final scope as in the PID. Go live BE 30/06/2027, NL 08/09/2027. Analysis showed the subscription API needs a vendor change request for payment method changes, which is now included. Business case holds at 74 kEUR/year. Final EA recommendation delivered 05/12/2026."
+    },
+    {
+      "id": "pte-deviation-under-10",
+      "why": "must not over-escalate: a small deviation should conclude that Steerco approval is sufficient",
+      "prompt": "PTE for PRJ00231.ARCHIVE. PID committed 120 MD internal and 30 kEUR external. Analysis lands on 124 MD internal and 31 kEUR external, scope unchanged, go live as planned. Everything checked with sponsor and Head of PMO, final business case and EA recommendation done."
+    },
+    {
+      "id": "pte-no-baseline",
+      "why": "deliberately incomplete: no PID section in the context file. Must report that the deviation cannot be established rather than reporting 0% or using the PTE as its own baseline. Analysis conclusion also missing the remaining uncertainties",
+      "prompt": "Make the Plan to Execute for PRJ00245.CRM. Build is 300 MD internal, 150 kEUR external. The analysis went well, we know what to build and EA is happy. Steerco is next week."
+    }
+  ]
+}

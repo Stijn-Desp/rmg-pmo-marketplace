@@ -1,0 +1,11 @@
+{
+  "name": "rmg-pmo",
+  "version": "0.1.0",
+  "description": "Prepares each Roularta PMO gate - Project Pitch, PID, Plan to Execute and Project Closing - with a requirements checklist, the official template filled in, and a report of what is missing or inconsistent with what an earlier gate committed.",
+  "author": {
+    "name": "Stijn Despiegelaere",
+    "email": "stijn.despiegelaere@roularta.be"
+  },
+  "keywords": ["pmo", "roularta", "pitch", "pid", "plan-to-execute", "closing", "steerco"],
+  "license": "UNLICENSED"
+}

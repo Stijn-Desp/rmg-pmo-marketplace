@@ -1,0 +1,65 @@
+{
+  "gate": "Project Pitch (phase 0 - DISCOVER)",
+  "template": "../../templates/project-pitch.pptx",
+  "approver": "PPM / CIO / Project Owner",
+  "default_italic": false,
+  "cells": {
+    "title_block": {
+      "slide": 0,
+      "shape": 1,
+      "mode": "text",
+      "label": "Project name + pitch date (2 lines)",
+      "owner": "Project Manager"
+    },
+    "description": {
+      "slide": 2,
+      "shape": 1,
+      "row": 1,
+      "col": 0,
+      "label": "Short description of the project (purpose / context)",
+      "owner": "Project Owner"
+    },
+    "assumptions": {
+      "slide": 2,
+      "shape": 2,
+      "row": 1,
+      "col": 0,
+      "label": "Assumptions to be investigated",
+      "owner": "Project Owner"
+    },
+    "strategic_fit": {
+      "slide": 2,
+      "shape": 3,
+      "row": 1,
+      "col": 0,
+      "label": "Strategic fit with the Roularta strategy",
+      "owner": "Project Owner"
+    },
+    "size_complexity": {
+      "slide": 2,
+      "shape": 4,
+      "row": 1,
+      "col": 0,
+      "label": "Estimated project size / complexity",
+      "owner": "Project Manager"
+    },
+    "project_sponsor": {
+      "slide": 2,
+      "shape": 5,
+      "row": 1,
+      "col": 0,
+      "mode": "cell_append",
+      "label": "Proposed Project Sponsor",
+      "owner": "Project Owner"
+    },
+    "proposed_project_manager": {
+      "slide": 2,
+      "shape": 5,
+      "row": 1,
+      "col": 1,
+      "mode": "cell_append",
+      "label": "Proposed Project Manager",
+      "owner": "Head of PMO"
+    }
+  }
+}

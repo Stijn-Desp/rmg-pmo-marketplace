@@ -1,0 +1,258 @@
+{
+  "gate": "Project Closing (phase 4/5 - GO LIVE / CLOSE)",
+  "template": "../../templates/project-closing.pptx",
+  "approver": "Steerco / CIO",
+  "default_italic": false,
+  "cells": {
+    "title_block": {
+      "slide": 0,
+      "shape": 1,
+      "mode": "text",
+      "label": "PRJ number + project name, blank line, closing date",
+      "owner": "Project Manager"
+    },
+    "owner_sponsor": {
+      "slide": 0,
+      "shape": 2,
+      "mode": "sub",
+      "find": "Project owner/sponsor:",
+      "keep_find": true,
+      "label": "Project owner / sponsor",
+      "owner": "Project Manager"
+    },
+    "project_manager": {
+      "slide": 0,
+      "shape": 2,
+      "mode": "sub",
+      "find": "Project manager:",
+      "keep_find": true,
+      "label": "Project manager",
+      "owner": "Project Manager"
+    },
+    "benefits_quantitative_realised": {
+      "slide": 2,
+      "shape": 2,
+      "row": 1,
+      "col": 1,
+      "label": "Realisation of the quantitative / financial benefits vs the PID/PTE business case",
+      "owner": "Business Controlling"
+    },
+    "benefits_qualitative_realised": {
+      "slide": 2,
+      "shape": 2,
+      "row": 2,
+      "col": 1,
+      "label": "Realisation of the qualitative benefits",
+      "owner": "Project Owner"
+    },
+    "int_md_committed": {
+      "slide": 3,
+      "shape": 1,
+      "row": 1,
+      "col": 1,
+      "label": "Internal MD committed at INIT (from the approved PID)",
+      "owner": "PMO"
+    },
+    "int_md_spend": {
+      "slide": 3,
+      "shape": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Internal MD actually spent",
+      "owner": "PMO"
+    },
+    "int_md_comment": {
+      "slide": 3,
+      "shape": 1,
+      "row": 1,
+      "col": 4,
+      "label": "Comment on the internal MD deviation",
+      "owner": "Project Manager"
+    },
+    "ext_eur_committed": {
+      "slide": 3,
+      "shape": 1,
+      "row": 2,
+      "col": 1,
+      "label": "External resources in EUR committed at INIT",
+      "owner": "PMO"
+    },
+    "ext_eur_spend": {
+      "slide": 3,
+      "shape": 1,
+      "row": 2,
+      "col": 2,
+      "label": "External resources in EUR actually spent",
+      "owner": "Project Manager"
+    },
+    "ext_eur_comment": {
+      "slide": 3,
+      "shape": 1,
+      "row": 2,
+      "col": 4,
+      "label": "Comment on the external cost deviation",
+      "owner": "Project Manager"
+    },
+    "other_committed": {
+      "slide": 3,
+      "shape": 1,
+      "row": 3,
+      "col": 1,
+      "label": "Other expenses committed at INIT",
+      "owner": "PMO"
+    },
+    "other_spend": {
+      "slide": 3,
+      "shape": 1,
+      "row": 3,
+      "col": 2,
+      "label": "Other expenses actually spent",
+      "owner": "Project Manager"
+    },
+    "other_comment": {
+      "slide": 3,
+      "shape": 1,
+      "row": 3,
+      "col": 4,
+      "label": "Comment on other expenses",
+      "owner": "Project Manager"
+    },
+    "int_md_diff": {
+      "slide": 3,
+      "shape": 1,
+      "row": 1,
+      "col": 3,
+      "label": "Internal MD difference"
+    },
+    "ext_eur_diff": {
+      "slide": 3,
+      "shape": 1,
+      "row": 2,
+      "col": 3,
+      "label": "External EUR difference"
+    },
+    "other_diff": {
+      "slide": 3,
+      "shape": 1,
+      "row": 3,
+      "col": 3,
+      "label": "Other expenses difference"
+    },
+    "validation_business_name": {
+      "slide": 4,
+      "shape": 1,
+      "row": 2,
+      "col": 1,
+      "label": "Business validator of the project result",
+      "owner": "Project Sponsor"
+    },
+    "validation_business_comment": {
+      "slide": 4,
+      "shape": 1,
+      "row": 2,
+      "col": 2,
+      "label": "Business validation comment",
+      "owner": "Project Sponsor"
+    },
+    "validation_it_name": {
+      "slide": 4,
+      "shape": 1,
+      "row": 3,
+      "col": 1,
+      "label": "I.T. validator of the project result",
+      "owner": "IT"
+    },
+    "validation_it_comment": {
+      "slide": 4,
+      "shape": 1,
+      "row": 3,
+      "col": 2,
+      "label": "I.T. validation comment",
+      "owner": "IT"
+    },
+    "validation_ea_name": {
+      "slide": 4,
+      "shape": 1,
+      "row": 4,
+      "col": 1,
+      "label": "EA validator of the project result",
+      "owner": "Enterprise Architecture"
+    },
+    "validation_ea_comment": {
+      "slide": 4,
+      "shape": 1,
+      "row": 4,
+      "col": 2,
+      "label": "EA validation comment",
+      "owner": "Enterprise Architecture"
+    },
+    "validation_other_name": {
+      "slide": 4,
+      "shape": 1,
+      "row": 5,
+      "col": 1,
+      "label": "Other stakeholders who validated the result",
+      "owner": "Project Manager"
+    },
+    "validation_other_comment": {
+      "slide": 4,
+      "shape": 1,
+      "row": 5,
+      "col": 2,
+      "label": "Other stakeholders comment",
+      "owner": "Project Manager"
+    },
+    "integration_organization": {
+      "slide": 4,
+      "shape": 2,
+      "row": 2,
+      "col": 1,
+      "label": "How the project result is integrated in the organization (incl. IT Service Desk incident flow, contacts, SLA)",
+      "owner": "Project Manager"
+    },
+    "followup_kpis": {
+      "slide": 4,
+      "shape": 2,
+      "row": 3,
+      "col": 1,
+      "label": "Follow-up KPIs and who owns them after closing",
+      "owner": "Project Owner"
+    }
+  },
+  "derived": {
+    "int_md_diff": {
+      "diff": [
+        "int_md_spend",
+        "int_md_committed"
+      ]
+    },
+    "ext_eur_diff": {
+      "diff": [
+        "ext_eur_spend",
+        "ext_eur_committed"
+      ]
+    },
+    "other_diff": {
+      "diff": [
+        "other_spend",
+        "other_committed"
+      ]
+    }
+  },
+  "tables": {
+    "deliverables": {
+      "slide": 2,
+      "shape": 1,
+      "first_row": 1,
+      "cols": [
+        "nr",
+        "deliverable",
+        "realized",
+        "comment"
+      ],
+      "grow": true,
+      "label": "Deliverables from the PID/PTE with realised yes/no + date",
+      "owner": "Project Manager"
+    }
+  }
+}
