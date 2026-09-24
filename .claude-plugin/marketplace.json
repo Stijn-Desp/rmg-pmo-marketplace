@@ -5,17 +5,26 @@
     "email": "stijn.despiegelaere@roularta.be"
   },
   "description": "Roularta Media Group PMO gate skills: pitch, PID, plan to execute and project closing.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "plugins": [
     {
       "name": "rmg-pmo",
       "displayName": "RMG PMO gates",
       "source": "./plugins/rmg-pmo",
       "description": "Prepares each RMG PMO gate: the requirements checklist, the official deck filled in from an append-only project context file, and a report of what is missing or inconsistent with earlier phases.",
-      "version": "0.1.0",
-      "author": {"name": "Stijn Despiegelaere"},
+      "version": "0.1.1",
+      "author": {
+        "name": "Stijn Despiegelaere"
+      },
       "category": "project-management",
-      "tags": ["pmo", "roularta", "pid", "plan-to-execute", "project-closing", "governance"],
+      "tags": [
+        "pmo",
+        "roularta",
+        "pid",
+        "plan-to-execute",
+        "project-closing",
+        "governance"
+      ],
       "license": "UNLICENSED"
     }
   ]

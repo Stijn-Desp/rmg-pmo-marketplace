@@ -162,3 +162,28 @@ The repo under `rmg-pmo-marketplace/` is the only source of truth for skill
 content; the Cowork folder keeps `projects/` (live project data, git-ignored) and
 `Context/Templates/` (where the PMO's own master templates arrive).
 Status: confirmed
+
+## 2026-09-24 — The engine runs in the session, not on the user's computer
+Decision: the skills locate the installed plugin with a find command and run
+`fill_template.py` in the session's own shell. The installed plugin sits in the
+session workspace (`~/.claude/plugins/synced/.../rmg-pmo/`), which the shell that
+reaches a user's connected folders cannot see. The finished deck is copied to the
+project folder afterwards.
+Source: a second session could not generate a pitch deck and reported the
+template, the engine and the `RMG Skills` folder as missing. All three were
+present — the plugin was installed and complete — but the SKILL.md told Claude
+the plugin root was "two levels above this SKILL.md", which is not resolvable
+from the shell it was using. Verified by running the installed plugin's own
+engine and template in the session shell with no connected folder at all.
+Affects: all four SKILL.md files.
+Status: confirmed
+
+## 2026-09-24 — No skill requires a folder named "RMG Skills"
+Decision: the context file goes in whichever folder the user has connected, or in
+the session workspace when none is, in which case the skill delivers it to the
+chat and tells the user to keep it. The three later gates stop and ask for the
+context file when it is absent rather than proceeding without the baseline they
+exist to check against.
+Source: same failure — the skills treated a specific folder name as a
+precondition, which made them unusable outside the machine they were built on.
+Status: confirmed

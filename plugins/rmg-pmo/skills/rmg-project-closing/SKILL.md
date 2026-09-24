@@ -27,11 +27,25 @@ wherever a field could not be filled.
 ## Step 1 - Find the project and its context file
 
 Ask for `PRJ00xxx.NAME` if not given. The context file is
-`<PMO folder>/projects/PRJ00xxx.NAME/project-context.md`, where `<PMO folder>` is
-the folder holding `Context/Templates/` (normally `RMG Skills`).
+`<project folder>/project-context.md`.
+
+Put it in, in order of preference: a folder the user has connected to this
+session that already holds this project or a `projects/` directory; a connected
+folder the user names; or, if no folder is connected, this session's own
+workspace - in which case deliver the context file to the chat alongside the deck
+and tell the user to keep it, because the next gate reads it.
+
+Never require a particular folder name, and never invent a location - ask if it
+is ambiguous.
 
 Read the **whole** file. This gate is almost entirely a comparison against
-earlier phases: the PID's `### Committed at INIT` block, the PTE's final scope
+earlier phases
+
+If there is no context file in this session - a new session, or the project
+folder is not connected - ask the user to attach it or paste it before going
+further. Do not reconstruct an earlier phase's figures from memory: the whole
+point of the cross-gate checks is that they compare against what was actually
+committed.: the PID's `### Committed at INIT` block, the PTE's final scope
 and deliverables, and the benefit KPIs promised in both. If those sections are
 missing, say so - the closing document cannot honestly evaluate against a
 baseline that was never recorded, and that is a finding rather than something to
@@ -129,11 +143,22 @@ python3 "$PLUGIN/scripts/fill_template.py" \
   --out "<project folder>/PRJ00xxx.NAME - CLOSING - <yyyy-mm-dd>.pptx"
 ```
 
-where `$PLUGIN` is this plugin's root folder - the directory two levels above
-this SKILL.md, also available as `${CLAUDE_PLUGIN_ROOT}` where that is set. The
-official template is named in `fieldmap.json` and resolved relative to it, so
-there is no template path to get wrong. Never edit the template in `templates/`
-- it is the master copy shared by every project.
+where `$PLUGIN` is this plugin's root folder. Find it first, in **this session's
+own shell** (the Bash tool):
+
+```bash
+PLUGIN=$(dirname "$(dirname "$(find ~/.claude/plugins -name fill_template.py -path '*rmg-pmo*' | head -1)")")
+```
+
+The installed plugin lives in this session's workspace. A shell that reaches the
+user's connected folders on their computer cannot see it, so run the fill in the
+session's own shell and copy the finished deck to the project folder afterwards.
+If that command returns nothing, say the plugin files cannot be found and stop -
+never rebuild the official template by hand.
+
+The template is named in `fieldmap.json` and resolved relative to it, so there is
+no template path to pass. Never edit the template in `templates/` - it is the
+master copy shared by every project.
 
 `closing-values.json` has the shape `{"cells": {...}, "tables": {...}}`. Keep it
 next to the deck.
