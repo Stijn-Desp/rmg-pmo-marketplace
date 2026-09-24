@@ -13,3 +13,13 @@ __pycache__/
 
 # The official templates ARE tracked - they are the master copies:
 !plugins/rmg-pmo/templates/*.pptx
+
+# Never commit private keys. A key pair was once generated inside this folder by
+# accident; these rules make sure a stray one can't be committed.
+id_*
+!id_*.md
+*.pem
+*_ed25519
+*_rsa
+github
+github.pub
